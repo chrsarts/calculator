@@ -4,34 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="calculator">
-      <div class="display-container">
-        <div class="current-num">test</div>
-        <div class="previous-num">test</div>
-      </div>
-      <div class="button-container">
-        <div class="calc-button two" id="clear-btn">AC</div>
-        <div class="calc-button operand" id="fact-btn">%</div>
-        <div class="calc-button operand" id="divide-btn">/</div>
-        <div class="calc-button" id="seven-btn">7</div>
-        <div class="calc-button" id="eight-btn">8</div>
-        <div class="calc-button" id="nine-btn">9</div>
-        <div class="calc-button operand" id="times-btn">x</div>
-        <div class="calc-button" id="four-btn">4</div>
-        <div class="calc-button" id="five-btn">5</div>
-        <div class="calc-button" id="six-btn">6</div>
-        <div class="calc-button operand" id="minus-btn">-</div>
-        <div class="calc-button" id="one-btn">1</div>
-        <div class="calc-button" id="two-btn">2</div>
-        <div class="calc-button" id="three-btn">3</div>
-        <div class="calc-button operand" id="plus-btn">+</div>
-        <div class="calc-button two" id="zero-btn">0</div>
-        <div class="calc-button" id="dot-btn">.</div>
-        <div class="calc-button operand" id="equal-btn">=</div>
+    <div class="main">
+      <div class="calc-container">
+        <div class="display-container">
+          <div class="display" id="display-text"><h1>0</h1></div>
+        </div>
+        <div class="button-container">
+          <div class="calc-button two" id="clear">AC</div>
+          <div class="calc-button operand" id="percentage">%</div>
+          <div class="calc-button operand" id="divide">/</div>
+
+          <div class="num-button" id="7">7</div>
+          <div class="num-button" id="8">8</div>
+          <div class="num-button" id="9">9</div>
+          <div class="calc-button operand" id="multiply">x</div>
+
+          <div class="num-button" id="4">4</div>
+          <div class="num-button" id="5">5</div>
+          <div class="num-button" id="6">6</div>
+          <div class="calc-button operand" id="minus">-</div>
+
+          <div class="num-button" id="1">1</div>
+          <div class="num-button" id="2">2</div>
+          <div class="num-button" id="3">3</div>
+          <div class="calc-button operand" id="plus">+</div>
+
+          <div class="num-button two" id="0">0</div>
+          <div class="calc-button" id="dot">.</div>
+          <div class="calc-button operand" id="equal-btn">=</div>
+        </div>
       </div>
     </div>
     <script src="main.js"></script>
